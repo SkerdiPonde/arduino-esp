@@ -1,4 +1,4 @@
-# Arduino and ESP32 Projects Repository
+# Arduino and ESP32 Projects
 
 This repository contains various projects implemented using Arduino Uno (ATmega328P) and ESP32 microcontrollers. The projects include applications such as distance sensors, LCD displays, and interfacing with APIs for natural language processing tasks.
 
