@@ -25,7 +25,7 @@ void setup_pwm() {
 
   // Note: I attempted setting OCR1A value to 0, expecting the LED to be off (0% duty cycle), however
   // it still had a faint glow. I am assuming the issue is, that no comparison occurs when the clock resets
-  // to step 0 (TCR1A = 0), and it it occurs when TCR1A = 1 instead. Since TCR1A has exceeded the value of
+  // to step 0 (TCNT1 = 0), and it it occurs when TCNT1 = 1 instead. Since TCNT1 has exceeded the value of
   // OCR1A that is when the clear of OC1A occurs.
 
   // Using inverted mode instead and setting OCR1A to 1023 does indeed lead to the LED being off the entire time
